@@ -5,7 +5,7 @@ pipeline {
     }
     
     stages {
-        stage('BuilDDDDDDd') {
+        stage('Build') {
             steps {
                 echo "Building.."
                 sh 'ls -ltr'

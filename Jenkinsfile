@@ -1,15 +1,15 @@
 pipeline {
     agent any
     triggers {
-        pollSCM '*/5 * * * *'
+        pollSCM '* * * * *'
     }
     
     stages {
-        stage('Build') {
+        stage('BuilDDDDDDd') {
             steps {
                 echo "Building.."
                 sh 'ls -ltr'
-            
+            }
         }
         stage('Test') {
             steps {
